@@ -22,10 +22,18 @@ body {
 
 body {
   min-height: 100%;
+  color: var(--foreground);
+
+  background: radial-gradient(
+    circle at 75% 15%,
+    rgba(253, 198, 219, 0.05),
+    transparent 28rem
+  ),
+  var(--background);
+
   display: flex;
   flex-direction: column;
-  color: var(--foreground);
-  background: var(--background);
+  
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
