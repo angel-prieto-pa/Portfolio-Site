@@ -6,7 +6,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #f8f0f3;
   }
 }
 
@@ -33,7 +33,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  
+
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
