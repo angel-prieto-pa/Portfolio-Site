@@ -160,7 +160,7 @@ body {
   grid-template-columns: 9.5rem 1fr;
 
   gap: 2.5rem;
-  padding: 3rem 3rem;
+  padding: 3rem;
 }
 
 .experienceCard:hover {
@@ -245,4 +245,86 @@ body {
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
   background-color: var(--border);
+}
+
+@media (max-width: 1200px) {
+
+  .page {
+    height: auto;
+    min-height: 10dvh;
+    padding: 2rem;
+
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .profile {
+    width: 100%;
+    height: auto;
+    padding: 5rem 1rem;
+  }
+
+  .profile nav {
+    display: none;
+  }
+
+  .socialLinks {
+    margin: 2rem auto 0;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1rem;
+
+    overflow: visible;
+  }
+
+  .about {
+    padding: 0;
+    text-align: center;
+  }
+
+  .experienceCard {
+    width: 90%;
+    margin: 0 auto;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .profile {
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .intro {
+    gap: 2rem;
+  }
+
+  .content {
+    /* padding: 2rem; */
+  
+    gap: 2rem;
+  }
+
+
+  .experienceCard {
+    width: 100%;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experienceCard:hover {
+    border-width: 0px;
+    padding: 0;
+  }
+
+
 }
